@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4CAF50"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Judul Cerita -->
+        <TextView
+            android:id="@+id/storyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Bunga yang Hilang"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Subjudul "Alur" -->
+        <TextView
+            android:id="@+id/subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="alur"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Isi Alur Cerita -->
+        <TextView
+            android:id="@+id/storyContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sari adalah gadis desa yang sangat menyukai bunga. Suatu hari, saat berjalan di taman, dia menemukan bunga langka berwarna biruyang sangat indah. Sari merawatnya dengan penuh cinta, menjadikannya simbol harapan dan kebahagiaan. Namun, saat Sari bangun suatu pagi, bunga itu telah hilang. Merasa kehilangan, Sari memutuskan untuk mencari tahu siapa yang mengambilnya. Dalam pencariannya, dia bertemu dengan berbagai orang di desanya, termasuk seorang pemuda yang juga menyukai bunga. Mereka menjalin persahabatan dan Sari menyadari bahwa kebahagiaan tidak hanya terletak pada benda, tetapi pada hubungan dan pengalaman yang dibangun. Pada akhirnya, mereka menemukan bunga tersebut di kebun seorang nenek, yang mengajarkan mereka tentang keikhlasan dan berbagi."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:lineSpacingExtra="6dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
